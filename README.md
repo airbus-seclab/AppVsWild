@@ -6,7 +6,7 @@ This is the AppVsWild security challenge. AppVsWild is an application protection
 
 The protection helps encrypted binaries to run seamlessly on an x86 hardware virtualisation equipped system. It's OS agnostic. For now, the provided toolchain only allow Linux 32 bits ELF binaries to be protected.
 
-The protection has been presented during [SSTIC 2016](https://www.sstic.org/2016/presentation/app_vs_wild/) 2016. Please refer to the slides and article available on the SSTIC website.
+The protection has been presented during [SSTIC 2016](https://www.sstic.org/2016/presentation/app_vs_wild/). Please refer to the slides and article available on the SSTIC website.
 
 ## Purpose
 
