@@ -39,6 +39,8 @@ The VM has been tested under VMware Workstation 12 and Fusion 8. It does make us
 
 For convenient hacking, we did not disable Ramooflax logs to the serial port (redirected to a file). At some point, your system might crash. Hey, this is an early stage proof of concept. At least you will have some info to discover what happened and feel free to restart the VM.
 
+The VM is configured to boot on primary HDD with Ramooflax and Grub installed on it. The first Grub entry boots Ramooflax then restarts Grub. Choose the second entry to boot your added HDD. The bootloader of your HDD has to be installed in the MBR, else you may have to fix the Grub entry to boot a specific partition. You may also have to fix your linux kernel command line to give the correct ```root=/dev/sdxx```.
+
 ## Obtain
 
 You can download the virtual machine archive (~3MB) [here](https://github.com/sduverger/AppVsWild/vm.tar.gz).
