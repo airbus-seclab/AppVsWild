@@ -41,7 +41,7 @@ For convenient hacking, we did not disable Ramooflax logs to the serial port (re
 
 ## Obtain
 
-You can download the virtual machine archive () [here](https://github.com/sduverger/AppVsWild/vm.tar.gz).
+You can download the virtual machine archive (~3MB) [here](https://github.com/sduverger/AppVsWild/vm.tar.gz).
 You can download the protected application [here](https://github.com/sduverger/AppVsWild/app.gz).
 
 Good Luck !
