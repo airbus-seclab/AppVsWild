@@ -41,9 +41,11 @@ I even give you the cryptographic material used to encrypt the binary. The goal 
 ```
 AES Key 6472779d30d18aa79fdce01a6ad497e6c7eb4dbff357c7899a8d22468211b4a7
 ```
-```AES IV 0ae733b7a18c727f2bd5c9b778de5200
 ```
-```HMAC Key 30019fef730d55589045d892bfda40e208761388c1cebce8fc336a7f2c940680
+AES IV 0ae733b7a18c727f2bd5c9b778de5200
+```
+```
+HMAC Key 30019fef730d55589045d892bfda40e208761388c1cebce8fc336a7f2c940680
 ```
 
 
