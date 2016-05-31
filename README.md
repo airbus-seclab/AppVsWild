@@ -41,6 +41,8 @@ For convenient hacking, we did not disable Ramooflax logs to the serial port (re
 
 The VM is configured to boot on primary HDD with Ramooflax and Grub installed on it. The first Grub entry boots Ramooflax then restarts Grub. Choose the second entry to boot your added HDD. The bootloader of your HDD has to be installed in the MBR, else you may have to fix the Grub entry to boot a specific partition. You may also have to fix your linux kernel command line to give the correct ```root=/dev/sdxx```.
 
+The VM comes with a network adapter in NAT mode.
+
 ## Obtain
 
 You can download the virtual machine archive (~3MB) [here](https://github.com/sduverger/AppVsWild/vm.tar.gz).
