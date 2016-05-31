@@ -33,7 +33,7 @@ However, you are given the right to operate at ring 0 because you own the runnin
 - you can't backdoor SMM VMware bios.
 - you can't use any VMware vulnerability.
 
-Your solution won't be considered if not relevant with regard to these rules. Be fait, play the game. I even give you the cryptographic material used to encrypt the binary. The goal is to break into Ramooflax, not VMware.
+Your solution won't be considered if not relevant with regard to these rules. Be fair, play the game. I even give you the cryptographic material used to encrypt the binary. The goal is to break into Ramooflax, not VMware.
 
 ```
 AES Key 6472779d30d18aa79fdce01a6ad497e6c7eb4dbff357c7899a8d22468211b4a7
