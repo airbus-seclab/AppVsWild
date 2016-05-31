@@ -45,8 +45,8 @@ The VM comes with a network adapter in NAT mode.
 
 ## Obtain
 
-You can download the virtual machine archive (~3MB) [here](https://github.com/sduverger/AppVsWild/vm.tar.gz).
-You can download the protected application [here](https://github.com/sduverger/AppVsWild/app.gz).
+You can download the virtual machine archive (~560 KB) [here](https://github.com/sduverger/AppVsWild/vm.tar.gz).
+You can download the protected application (~3 KB) [here](https://github.com/sduverger/AppVsWild/app.gz).
 
 Good Luck !
 
