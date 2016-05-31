@@ -12,7 +12,7 @@ The protection has been presented during [SSTIC 2016](https://www.sstic.org/2016
 
 You have to retrieve the encrypted e-mail address and hash value distributed within the protected application, from the software perspective of the running operating system.
 
-The challenge is delivered under the form of a VMWare virtual machine provided with a hard disk drive booting Ramooflax and then booting a second hard drive that you have to add to the VM configuration.
+The challenge is delivered under the form of a VMware virtual machine provided with a hard disk drive booting Ramooflax and then booting a second hard drive that you have to add to the VM configuration.
 
 That way, you will be able to run your own Linux 32 bits operating system with all of your hacking tools inside, root, ring 0 access, whatever you want to break into Ramooflax protection.
 
@@ -28,15 +28,12 @@ Consider attacking the protection from the context of the virtual machine. The p
 However, you are given the right to operate at ring 0 because you own the running operating system.
 
 - you can't inspect the ramooflax hard disk to tamper with Ramooflax hypervisor binary.
-- you can't use VMware gdbstub to debug physical memory
-- you can't analyse VMware memory/disk files on you host.
+- you can't use VMware gdbstub to debug physical memory.
+- you can't analyse VMware memory/disk files on your host.
 - you can't backdoor SMM VMware bios.
 - you can't use any VMware vulnerability.
 
-Your solution won't be considered if not relevant with regard to these rules.
-
-I even give you the cryptographic material used to encrypt the binary. The goal is to break into Ramooflax, not VMware.
-
+Your solution won't be considered if not relevant with regard to these rules. Be fait, play the game. I even give you the cryptographic material used to encrypt the binary. The goal is to break into Ramooflax, not VMware.
 
 ```
 AES Key 6472779d30d18aa79fdce01a6ad497e6c7eb4dbff357c7899a8d22468211b4a7
