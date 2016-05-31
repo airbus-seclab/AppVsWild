@@ -26,8 +26,9 @@ However, you are given the right to operate at ring 0 because you own the runnin
 - you can't use VMware gdbstub to debug physical memory.
 - you can't analyse VMware memory/disk files on your host.
 - you can't backdoor SMM VMware bios.
-- you can't change the boot chain (Ramooflax boots first then your Linux distribution boots).
 - you can't use any VMware vulnerability.
+- you can't change the boot chain (Ramooflax boots first then your Linux distribution boots).
+- you can't use DMA (for now we do not implement I/O MMU).
 - you can't take benefit of Ramooflax logs to the serial port.
 
 Your solution won't be considered if not relevant with regard to these rules. Be fair, play the game. The goal is to break into Ramooflax, not VMware.
@@ -40,7 +41,7 @@ For convenient hacking, we did not disable Ramooflax logs to the serial port (re
 
 ## Obtain
 
-You can download the virtual machine archive [here](https://github.com/sduverger/AppVsWild/vm.tar.gz).
+You can download the virtual machine archive () [here](https://github.com/sduverger/AppVsWild/vm.tar.gz).
 You can download the protected application [here](https://github.com/sduverger/AppVsWild/app.gz).
 
 Good Luck !
